@@ -6,11 +6,6 @@ Leer() y Mostrar() que obtenga y visualice las citadas ventas. Modificar las cla
 Libro y Disco, lea y visualice las publicaciones.
  */
 package Lab1Ej17;
-
-/**
- *
- * @author USUARIO
- */
 public class Lab1Ej17 {
     
 }
