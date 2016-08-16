@@ -1,8 +1,8 @@
 
 package Lab1Ej17;
 import java.util.Scanner;
-public class Disco extends lab1ej16.Publicacion{
-    private String min,precio;
+public class Disco extends Publicacion{
+    private String min;
    
     Scanner lector=new Scanner(System.in);
     

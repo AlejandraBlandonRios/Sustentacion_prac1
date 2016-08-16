@@ -1,7 +1,7 @@
 
 package Lab1Ej17;
 import java.util.Scanner;
-public class Libro extends lab1ej16.Publicacion {
+public class Libro extends Publicacion {
     private String num_pag, año, precio;
    
     Scanner lector=new Scanner(System.in);
