@@ -1,8 +1,6 @@
-
 package Lab1Ej17;
-
 import java.util.Scanner;
-public class Publicacion {
+public class Publicacion17 {
     
     private String titulo, precio;
 
@@ -17,10 +15,10 @@ public class Publicacion {
     }
     
     public void Cargar_Datos(){
-        System.out.print("Ingrese el titulo del libro: ");
-        titulo=lector.next();
-        System.out.print("Ingrese el precio del libro: ");
-        precio=lector.next();
+        System.out.println("Ingrese el titulo del libro: ");
+        titulo=lector.nextLine();
+        System.out.println("Ingrese el precio del libro: ");
+        precio=lector.nextLine();
     }
     
     public void Mostrar(){

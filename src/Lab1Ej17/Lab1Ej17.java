@@ -9,8 +9,8 @@ package Lab1Ej17;
 import java.util.Scanner;
 public class Lab1Ej17 {
     public static void main(String[] args) {
-        Libro libritos=new Libro();
-        Disco disquitos=new Disco();
+        Libro17 libritos=new Libro17();
+        Disco17 disquitos=new Disco17();
         Ventas ventitas=new Ventas();
         Scanner lector=new Scanner(System.in);
         
@@ -32,7 +32,7 @@ public class Lab1Ej17 {
             case 2: libritos.Mostrar();
                     libritos.Mostrar_libro();
                     disquitos.Mostrar_Disco();
-                    ventitas.Mostrar();
+                    ventitas.Mostrar_Ventas();
                 break;
             case 3: 
                 break;
