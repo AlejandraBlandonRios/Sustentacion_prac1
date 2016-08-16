@@ -13,6 +13,14 @@ public class Publicacion17 {
     public void setPrecio(String precio) {
         this.precio = precio;
     }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getPrecio() {
+        return precio;
+    }
     
     public void Cargar_Datos(){
         System.out.println("Ingrese el titulo del libro: ");

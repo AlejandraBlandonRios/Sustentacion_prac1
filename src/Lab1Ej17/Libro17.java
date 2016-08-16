@@ -3,7 +3,7 @@ package Lab1Ej17;
 import java.util.Scanner;
 public class Libro17 extends Publicacion17 {
     private String año;
-   
+    
     Scanner lector=new Scanner(System.in);
     
     public void Cargar_Datos_libro(){
